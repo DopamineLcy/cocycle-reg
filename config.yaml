@@ -1,0 +1,12 @@
+in_path_train: "/the/path/of/training/data/"
+in_path_val: "/the/path/of/validating/data/"
+out_path: "/the/path/of/output/"
+# trainning
+gpu_id: "1"
+n_epoch: 800
+batch_size: 1
+# loss weights
+gen_w: 1.0
+sim_w: 1.0
+cycle_w: 1.0
+smooth_w: 1.0
